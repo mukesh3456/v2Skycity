@@ -194,6 +194,10 @@ Author URI: http://themeforest.net/user/Ansonika/
 30px = 1.875rem
 32px = 2rem
 */
+.btn-color{
+  background-color: red !important;
+  color: white !important;
+}
 html * {
   -webkit-font-smoothing: antialiased;
 }
@@ -2485,11 +2489,11 @@ footer .copy {
 }
 .qty-buttons label {
   position: absolute;
-  color: #999;
+  color: #000000;
   left: 15px;
   top: 13px;
-  font-weight: 500;
-  color: #6c757d;
+  font-weight: 600;
+  color: #000000;
   font-size: 15px;
   font-size: 0.9375rem;
 }
@@ -3237,10 +3241,14 @@ a.box_cat_rooms:hover .background-image {
   margin: 0 0 25px 0;
 }
 .booking_wrapper .form-control::-moz-placeholder {
-  color: #333;
+  color: #000000;
 }
 .booking_wrapper .form-control::placeholder {
-  color: #333;
+  color: #000000 !important;
+}
+.form-control::placeholder {
+  color: #000000 !important;
+  font-weight: 600px;
 }
 
 .owl-carousel.border-radius .owl-item {
