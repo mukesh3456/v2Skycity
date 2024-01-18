@@ -986,7 +986,7 @@ header.reveal_header.headroom--not-top .logo_sticky {
 }
 header nav ul {
   list-style: none;
-  padding: 0;
+  padding-right: 3px;
   margin: 0;
   text-align: right;
 }
@@ -1676,7 +1676,7 @@ ul > li:first-child .image {
     -moz-transition: all 0.4s cubic-bezier(0.77, 0, 0.175, 1);
   }
   .main-menu #mainNav {
-    padding: 30px;
+    padding: 0px;
   }
   .main-menu #mainNav ul {
     text-align: left;
