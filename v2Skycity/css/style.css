@@ -262,7 +262,7 @@ hr.more_margin {
 
 /* General links color */
 a {
-  color: #978667;
+  color: #CFA547;
   text-decoration: none;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -272,7 +272,7 @@ a {
   outline: none;
 }
 a:hover, a:focus {
-  color: #24262d;
+  color: #bb8a1f;
   text-decoration: none;
   outline: none;
 }
@@ -2171,6 +2171,7 @@ footer h5 {
 @media (max-width: 767px) {
   footer h5 {
     margin-bottom: 10px;
+    margin-top: 5px;
   }
 }
 footer hr {
@@ -2213,8 +2214,8 @@ footer .copy {
   color: #ebd7b2;
 }
 .social ul li a i {
-  font-size: 21px;
-  font-size: 1.3125rem;
+  font-size: 40px;
+  
 }
 
 .styled-select {
